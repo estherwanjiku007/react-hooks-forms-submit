@@ -15,7 +15,7 @@ function Form(props) {
   }
   function handleSubmit(event){
     event.preventDefault()
-    if(firstName>O){
+    if(firstName>0){
   const formData={
     firstName :firstName,
     lastName  :lastName
